@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+
+.header__title {
+  background: linear-gradient(to left, $headerColorRight, $headerColorLeft);
+  text-align: center;
+  height: 72px;
+  opacity: 1;
+
+  h1 {
+    text-align: center;
+    color: $cardColor;
+    padding-top: 24px;
+    font: normal normal 900 28px/30px Roboto;
+  }
+}

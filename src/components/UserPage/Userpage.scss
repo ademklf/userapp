@@ -1,0 +1,26 @@
+@import "../../scss/variables";
+
+.card_user {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20%;
+  border: 1px solid $cardColor;
+  background-color: $cardColor;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  top: 259px;
+  left: 165px;
+  width: 75%;
+  height: 250px;
+}
+.card_user:hover {
+  transform: scale(1.07);
+}
+.usercard_email {
+  text-align: center;
+  font: normal normal normal 14px/30px Roboto;
+  color: $mailColor;
+}
